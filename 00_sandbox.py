@@ -1,5 +1,8 @@
-# count up from 1 to 10
+# prints items in list
 
-for item in range (10,-1,-1 ):
-    print (item)
+options = ["Unicorn", "Horse", "Zebra", "Donkey"]
+
+for item in options:
+    print(item)
+
 
