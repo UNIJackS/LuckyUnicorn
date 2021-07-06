@@ -1,8 +1,5 @@
-# asking for a number and makeing sure it an int
-get_number = int(input("chose a number"))
+# count up from 1 to 10
 
-# multipyls the input by 5
-total = get_number * 5
+for item in range (10,-1,-1 ):
+    print (item)
 
-# prints the output
-print("{} multiplyed by 5 is equal to {}".format(get_number,total))
