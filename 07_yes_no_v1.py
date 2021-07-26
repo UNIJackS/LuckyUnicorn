@@ -1,7 +1,3 @@
-# loops the code till yes or no is entered
-show_instructions = "***"
-while show_instructions != "xxx":
-
 # ask the user if they have played before
     show_instructions =  input("Have you played before ?").lower()
 
@@ -21,4 +17,3 @@ while show_instructions != "xxx":
 # If they say no 'display instructions'
     else:
         print("Please enter yes or No")
-
