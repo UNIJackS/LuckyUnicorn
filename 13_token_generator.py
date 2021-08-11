@@ -9,10 +9,10 @@ for i in range(0,20,1):
         balance += 1
     elif chosen == "Horse":
         balance += 1
-    elif chosen == "Donkey":
-        balance += 0
     else:
-        print("Error with token chosing and or generating")
+        balance += 0
 print("You got a {}, Your balance is now {}".format(chosen,balance))
+
+
 
 
